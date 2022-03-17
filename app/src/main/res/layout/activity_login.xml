@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:context="com.passcrypt.passwordmanager.Login">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView16"
+        android:text="(Must be 16 characters long for AES128)" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="196dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="50dp"
+        android:gravity="left|center_vertical"
+        android:text="Select Database"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="80dp"
+        android:layout_height="34dp"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="20dp"
+        android:gravity="left|center_vertical"
+        android:text="Browse"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView10"
+        android:layout_marginTop="20dp"
+        android:gravity="left|center_vertical"
+        android:text="Enter Password"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView13"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@id/textView16"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="79dp"
+        android:layout_height="47dp"
+        android:layout_below="@id/editTextTextPersonName3"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/editTextTextPassword2"
+        android:text="go" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="196dp"
+        android:layout_height="34dp"
+        android:layout_below="@id/textView14"
+        android:layout_marginTop="100dp"
+        android:gravity="left|center_vertical"
+        android:text="Create New"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="101dp"
+        android:layout_height="34dp"
+        android:layout_below="@id/textView9"
+        android:layout_marginTop="20dp"
+        android:gravity="left|center_vertical"
+        android:text="Select Folder"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="101dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/textView11"
+        android:layout_marginTop="20dp"
+        android:gravity="left|center_vertical"
+        android:text="Enter Name"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView11"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/textView11"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView11"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/editTextTextPersonName3"
+        android:text=".db"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView13"
+        android:layout_marginTop="20dp"
+        android:gravity="left|center_vertical"
+        android:text="Set Password"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textView14"
+        android:layout_toRightOf="@id/textView14"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="79dp"
+        android:layout_height="47dp"
+        android:layout_alignBottom="@id/editTextTextPassword3"
+        android:layout_toRightOf="@id/editTextTextPassword3"
+        android:text="go" />
+
+    <TextView
+        android:id="@+id/textViewww"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView14"
+        android:text="(Must be 16 characters long for AES128)" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="28dp"
+        android:layout_toRightOf="@id/imageButton"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView9"
+        android:layout_marginTop="28dp"
+        android:layout_toRightOf="@id/imageButton12"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/textView10"
+        android:backgroundTint="#FFFFFF"
+        android:tint="#FFDE03"
+        app:srcCompat="@drawable/ic_baseline_folder_open_24" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView9"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/textView11"
+        android:backgroundTint="#FFFFFF"
+        android:tint="#FFDE03"
+        app:srcCompat="@drawable/ic_baseline_folder_open_24" />
+</RelativeLayout>
